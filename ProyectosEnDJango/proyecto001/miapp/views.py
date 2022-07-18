@@ -27,7 +27,6 @@ def index(request):
                    'Jordy Quispe',
                    'Oscar Reyes',
                    'Antony Vasquez']
-    estudiantes = []
     return render(request,'index.html', {
         'titulo':'Inicio',
         'mensaje':'Proyecto Web con Django en LP3',
